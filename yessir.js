@@ -15,7 +15,7 @@ function gamble() {
     letters[row+1][col+1] = randnum;
     visuals();
     if(check()) {
-       document.getElementById("header1-1") 
+       document.getElementById("header1-1").textContent = "fart";
     }
 }
 
